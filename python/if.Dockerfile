@@ -2,7 +2,7 @@
 ################ FACE DETECTION PROCESS ###################
 ###########################################################
 
-FROM python:3.6.15
+FROM python:3.10.14
 
 # COPY . /app
 COPY /requirements_linux_container_heavy.txt /app/requirements_linux_container_heavy.txt
